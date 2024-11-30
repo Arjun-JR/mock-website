@@ -1,0 +1,106 @@
+/* General styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-image: url('../baba.jpg'); /* Path to your background image */
+    background-size: cover; /* Makes the background cover the entire screen */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    background-position: center;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7); /* Adds a transparent overlay */
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffcc00; /* Highlight color for links */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #fff; /* Changes color on hover */
+}
+
+/* Section styling */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Adds semi-transparent overlay to sections */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+p, li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Footer styling */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+/* Custom button styles (if needed later) */
+button {
+    padding: 10px 20px;
+    background: #ffcc00;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #fff;
+    color: #007BFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
